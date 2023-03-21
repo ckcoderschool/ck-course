@@ -4,6 +4,12 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage"
     },
+    "song1": {
+        "data": "0078000408020108001c000e050046006603320000040a002d00000064001400013200020100021e0008001000011918001c00011b20002400011d28002c00011e300034000120",
+        "mimeType": "application/mkcd-song",
+        "displayName": "mySong",
+        "namespace": "mySongs."
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

@@ -35,7 +35,8 @@ f f f f f f f f f f f f f f f f
 
     helpers._registerFactory("song", function(name: string) {
         switch(helpers.stringTrim(name)) {
-
+            case "song1":
+            case "mySong":return hex`0078000408020108001c000e050046006603320000040a002d00000064001400013200020100021e0008001000011918001c00011b20002400011d28002c00011e300034000120`;
         }
         return null;
     })
